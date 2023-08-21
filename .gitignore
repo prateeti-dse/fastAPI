@@ -1,0 +1,61 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Logs
+*.log
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency management
+/.venv
+/.mypy_cache/
+/.pytest_cache/
+/.tox/
+/.hypothesis/
+
+# Local development server
+__hug_wsgi__/
+
+# Generated API documentation
+/docs/_build/
+
+# Database files
+*.db
+*.sqlite3
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Environment configuration files
+*.env
+
+# Ignore API key files
+*.key
+
+# Ignore sensitive files
+secrets.json
