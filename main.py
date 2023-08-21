@@ -25,3 +25,11 @@ def addperson(person: Person):
         "lastname" : person.lastname,
         "isMale" : person.isMale
     }
+@app.post('/addperson', status_code=200)
+def addperson(person: Person):
+    return {
+        "id" : person.id,
+        "firstname" : person.firstname,
+        "lastname" : person.lastname,
+        "isMale" : person.isMale
+    }
