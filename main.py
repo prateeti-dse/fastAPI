@@ -33,3 +33,5 @@ def addperson(person: Person):
         "lastname" : person.lastname,
         "isMale" : person.isMale
     }
+
+print("running..")
